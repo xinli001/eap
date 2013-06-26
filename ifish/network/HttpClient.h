@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "NSString+Encode.h"
+#import "ExtType.h"
 
 typedef void(^iSuccess)(NSMutableData *);
 typedef void(^iError)(NSError *);

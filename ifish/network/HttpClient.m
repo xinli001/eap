@@ -10,10 +10,10 @@
 
 @implementation HttpClient
 
-+(void)get:(NSString *)url params:(NSDictionary *)params success:(iSuccess)success error:(iError)error {
++(void)get:(NSString *)url params:(NSDictionary *)params handler:(requestHandler)handler {
     NSString *requestUrl = [url urlEncode:params];
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:requestUrl]];
-    [NSURLConnection connectionWithRequest:request delegate:delegate];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:handler];
 }
 
 @end

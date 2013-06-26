@@ -52,6 +52,7 @@
 		4DAC1406177A88D700B702EF /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
 		4DAC1407177A88D700B702EF /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
 		4DAC140D177A88FB00B702EF /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
+		A7117769177A9161006E4B25 /* ExtType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtType.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +131,7 @@
 				4DAC13FC177A88D700B702EF /* network */,
 				4DAC1401177A88D700B702EF /* NSString+Encode.h */,
 				4DAC1402177A88D700B702EF /* NSString+Encode.m */,
+				A7117769177A9161006E4B25 /* ExtType.h */,
 			);
 			path = ifish;
 			sourceTree = "<group>";
@@ -344,6 +346,7 @@
 				4DAC13FA177A88BA00B702EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
