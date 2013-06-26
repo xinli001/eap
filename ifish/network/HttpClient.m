@@ -16,4 +16,13 @@
     [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:handler];
 }
 
++(void)post:(NSString *)url params:(NSDictionary *)params handler:(requestHandler)handler {
+    NSString *query = [NSString urlEncode:params];
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString:url]];
+    [request setHTTPMethod:@"POST"];
+    [request setHTTPBody:[query dataUsingEncoding:NSUTF8StringEncoding]];
+    [request addValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+    [NSURLConnection sendAsynchronousRequest:request queue:[NSOperationQueue mainQueue] completionHandler:handler];
+}
+
 @end

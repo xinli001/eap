@@ -10,9 +10,10 @@
 #import "NSString+Encode.h"
 #import "ExtType.h"
 
-typedef void(^iSuccess)(NSMutableData *);
-typedef void(^iError)(NSError *);
-
 @interface HttpClient : NSObject
+
++(void)get:(NSString *)url params:(NSDictionary *)params handler:(requestHandler)handler;
+
++(void)post:(NSString *)url params:(NSDictionary *)params handler:(requestHandler)handler;
 
 @end
