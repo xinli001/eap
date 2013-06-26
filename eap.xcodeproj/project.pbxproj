@@ -16,8 +16,13 @@
 		4DAC13EB177A88BA00B702EF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC13EA177A88BA00B702EF /* Default.png */; };
 		4DAC13ED177A88BA00B702EF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC13EC177A88BA00B702EF /* Default@2x.png */; };
 		4DAC13EF177A88BA00B702EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC13EE177A88BA00B702EF /* Default-568h@2x.png */; };
-		4DAC13F2177A88BA00B702EF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC13F0177A88BA00B702EF /* MainStoryboard.storyboard */; };
 		4DAC13F5177A88BA00B702EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC13F4177A88BA00B702EF /* ViewController.m */; };
+		4DAC1408177A88D700B702EF /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC13FE177A88D700B702EF /* HttpClient.m */; };
+		4DAC1409177A88D700B702EF /* HttpDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC1400177A88D700B702EF /* HttpDelegate.m */; };
+		4DAC140A177A88D700B702EF /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC1402177A88D700B702EF /* NSString+Encode.m */; };
+		4DAC140B177A88D700B702EF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC1405177A88D700B702EF /* Reachability.m */; };
+		4DAC140C177A88D700B702EF /* ReachabilityAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAC1407177A88D700B702EF /* ReachabilityAppDelegate.m */; };
+		4DAC140E177A88FB00B702EF /* iPhoneStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAC140D177A88FB00B702EF /* iPhoneStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,9 +39,19 @@
 		4DAC13EA177A88BA00B702EF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4DAC13EC177A88BA00B702EF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4DAC13EE177A88BA00B702EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4DAC13F1177A88BA00B702EF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4DAC13F3177A88BA00B702EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4DAC13F4177A88BA00B702EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DAC13FD177A88D700B702EF /* HttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		4DAC13FE177A88D700B702EF /* HttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
+		4DAC13FF177A88D700B702EF /* HttpDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpDelegate.h; sourceTree = "<group>"; };
+		4DAC1400177A88D700B702EF /* HttpDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpDelegate.m; sourceTree = "<group>"; };
+		4DAC1401177A88D700B702EF /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		4DAC1402177A88D700B702EF /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		4DAC1404177A88D700B702EF /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		4DAC1405177A88D700B702EF /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		4DAC1406177A88D700B702EF /* ReachabilityAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReachabilityAppDelegate.h; sourceTree = "<group>"; };
+		4DAC1407177A88D700B702EF /* ReachabilityAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReachabilityAppDelegate.m; sourceTree = "<group>"; };
+		4DAC140D177A88FB00B702EF /* iPhoneStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhoneStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,8 @@
 		4DAC13CC177A88BA00B702EF = {
 			isa = PBXGroup;
 			children = (
+				4DAC13FB177A88D700B702EF /* ifish */,
+				4DAC1403177A88D700B702EF /* reachability */,
 				4DAC13DE177A88BA00B702EF /* eap */,
 				4DAC13D7177A88BA00B702EF /* Frameworks */,
 				4DAC13D6177A88BA00B702EF /* Products */,
@@ -83,9 +100,9 @@
 		4DAC13DE177A88BA00B702EF /* eap */ = {
 			isa = PBXGroup;
 			children = (
+				4DAC140D177A88FB00B702EF /* iPhoneStoryboard.storyboard */,
 				4DAC13E7177A88BA00B702EF /* AppDelegate.h */,
 				4DAC13E8177A88BA00B702EF /* AppDelegate.m */,
-				4DAC13F0177A88BA00B702EF /* MainStoryboard.storyboard */,
 				4DAC13F3177A88BA00B702EF /* ViewController.h */,
 				4DAC13F4177A88BA00B702EF /* ViewController.m */,
 				4DAC13DF177A88BA00B702EF /* Supporting Files */,
@@ -105,6 +122,38 @@
 				4DAC13EE177A88BA00B702EF /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DAC13FB177A88D700B702EF /* ifish */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC13FC177A88D700B702EF /* network */,
+				4DAC1401177A88D700B702EF /* NSString+Encode.h */,
+				4DAC1402177A88D700B702EF /* NSString+Encode.m */,
+			);
+			path = ifish;
+			sourceTree = "<group>";
+		};
+		4DAC13FC177A88D700B702EF /* network */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC13FD177A88D700B702EF /* HttpClient.h */,
+				4DAC13FE177A88D700B702EF /* HttpClient.m */,
+				4DAC13FF177A88D700B702EF /* HttpDelegate.h */,
+				4DAC1400177A88D700B702EF /* HttpDelegate.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		4DAC1403177A88D700B702EF /* reachability */ = {
+			isa = PBXGroup;
+			children = (
+				4DAC1404177A88D700B702EF /* Reachability.h */,
+				4DAC1405177A88D700B702EF /* Reachability.m */,
+				4DAC1406177A88D700B702EF /* ReachabilityAppDelegate.h */,
+				4DAC1407177A88D700B702EF /* ReachabilityAppDelegate.m */,
+			);
+			path = reachability;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,7 +211,7 @@
 				4DAC13EB177A88BA00B702EF /* Default.png in Resources */,
 				4DAC13ED177A88BA00B702EF /* Default@2x.png in Resources */,
 				4DAC13EF177A88BA00B702EF /* Default-568h@2x.png in Resources */,
-				4DAC13F2177A88BA00B702EF /* MainStoryboard.storyboard in Resources */,
+				4DAC140E177A88FB00B702EF /* iPhoneStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +225,11 @@
 				4DAC13E5177A88BA00B702EF /* main.m in Sources */,
 				4DAC13E9177A88BA00B702EF /* AppDelegate.m in Sources */,
 				4DAC13F5177A88BA00B702EF /* ViewController.m in Sources */,
+				4DAC1408177A88D700B702EF /* HttpClient.m in Sources */,
+				4DAC1409177A88D700B702EF /* HttpDelegate.m in Sources */,
+				4DAC140A177A88D700B702EF /* NSString+Encode.m in Sources */,
+				4DAC140B177A88D700B702EF /* Reachability.m in Sources */,
+				4DAC140C177A88D700B702EF /* ReachabilityAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +242,6 @@
 				4DAC13E2177A88BA00B702EF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4DAC13F0177A88BA00B702EF /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4DAC13F1177A88BA00B702EF /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
